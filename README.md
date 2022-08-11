@@ -1,4 +1,4 @@
-# postassm
+# Postassm
 This pipeline offers a variety of evaluations for genome assembly outcomes, such as accuracy, continuity, and completeness.
 
 ## Quick start 
