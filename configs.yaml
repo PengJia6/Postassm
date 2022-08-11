@@ -1,0 +1,27 @@
+project_name: postasm_test
+dir_work: /data/home/pengjia/Project_Human_DATA/ChineseQuartet/Assembly/assm_res/postassm_test/
+software:
+  busco: "/data/home/pengjia/miniconda3/envs/assm_eval/bin/busco"
+  merqury:   "/data/home/pengjia/mysoftware/assm/meryl/merqury-1.3/merqury.sh"
+  samtools: "/data/home/pengjia/miniconda3/envs/default/bin/samtools"
+  Rscript: /data/home/pengjia/miniconda3/envs/default/bin/Rscript
+  xf_stat: "/data/home/pengjia/mysoftware/assm/NxCal/NxCalculating.R"
+  seqtk: "/data/home/pengjia/miniconda3/envs/assm/bin/seqtk"
+
+lib_dir:
+  busco: /data/home/pengjia/mysoftware/assm/busco/datasets/mammalia_odb10
+  busco_conf: /data/home/pengjia/mysoftware/assm/busco/conf/busco-master/config/config.ini
+opts:
+  continuity: True
+  completeness: Trus
+  accuracy: True
+samples:
+  sample1:
+    assm: /data/home/pengjia/Project_Human_DATA/ChineseQuartet/Assembly/assm_res/03_contigs_eval/fastas/ChineseQuartet.hap1.hifiasm_latest_default.bp.p_ctg.fa
+    meryl_lab: "/data/home/pengjia/Project_Human_DATA/ChineseQuartet/Assembly/common/meryl_db/LCL5.meryl"
+  sample2:
+    assm: /data/home/pengjia/Project_Human_DATA/ChineseQuartet/Assembly/assm_res/03_contigs_eval/fastas/ChineseQuartet.hap2.hifiasm_latest_default.bp.p_ctg.fa
+    meryl_lab: "/data/home/pengjia/Project_Human_DATA/ChineseQuartet/Assembly/common/meryl_db/LCL5.meryl"
+threads:
+  busco: 48
+  default: 2
