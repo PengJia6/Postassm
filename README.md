@@ -18,7 +18,8 @@ This pipeline offers a variety of evaluations for genome assembly outcomes, such
   nohup snakemake -s postassm.smk -j 10 -k --ri --cluster "qsub -l nodes=1:ppn=20 -l walltime=999:00:00" >sublog 2>&1 & 
   ```
  ## Support tools 
- * 
+ * BUSCO 
+ * Merquery
  ## contribution 
  If you want to apply other tools to evaluate the genome, we encourage you pull a request or email us 
  
