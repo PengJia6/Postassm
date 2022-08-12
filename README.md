@@ -51,7 +51,7 @@ This pipeline offers a variety of evaluations for genome assembly outcomes, such
  * BUSCO 
  * Merquery
  ## Contribution 
- If you want to apply other tools to evaluate the genome, we encourage you pull a request or email us 
+ If you want to apply other tools to evaluate the genome, we encourage you to pull a request or email us. 
  
  ## Contact  
  * Peng Jia (pengjia@stu.xjtu.edu.cn)
