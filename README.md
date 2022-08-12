@@ -3,7 +3,7 @@ This pipeline offers a variety of evaluations for genome assembly outcomes, such
 
 ## Quick start 
 
-  1. change the config.yam according to you environment. 
+  1. change the config.yaml according to you environment. 
 
        
            vim config.yaml 
