@@ -52,7 +52,8 @@ This pipeline offers a variety of evaluations for genome assembly outcomes, such
  * Merquery
  ## Contribution 
  If you want to apply other tools to evaluate the genome, we encourage you to pull a request or email us. 
- 
+ ## Citation
+  Jia P, Dong L, Yang X, Wang B, Wang T, Lin J, Wang S, Zhao X, Xu T, Che Y, et al: Haplotype-resolved assemblies and variant benchmark of a Chinese Quartet. bioRxiv 2022:2022.2009.2008.504083. [PDF](https://www.biorxiv.org/content/10.1101/2022.09.08.504083v1.full.pdf)
  ## Contact  
  * Peng Jia (pengjia@stu.xjtu.edu.cn)
 
